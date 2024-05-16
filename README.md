@@ -44,5 +44,10 @@ The clusters 0 and 2 remained grouped around the x-axis at zero, but appeared mo
 
 ![image05](https://github.com/mcjauregui/CryptoClustering/assets/151464511/b55e6f69-d368-4fa7-afad-57b2a0262b4b)
 
+Comparing the two models' Elbor Curves and Cluster Plots side-by-side indicates that k=4 was the clear choice in both cases. At 4 we see the most significant change in the slope of the elbow curves. 
+The Cluster Plot comparison indicates that using PCA on the original data produced a plot with more distince groupings of cryptocurrencies, whereas the plot of the original scaled data suggests there are only three clusters (as cluster 1 does not look distinct from cluster 0). 
 
+![image06](https://github.com/mcjauregui/CryptoClustering/assets/151464511/489d933e-156d-435a-b095-87fd588b3d4f)
+
+![image07](https://github.com/mcjauregui/CryptoClustering/assets/151464511/f9d99967-3cf3-4be4-9139-8b97d3ec0221)
 
