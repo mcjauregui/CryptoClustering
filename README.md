@@ -1,6 +1,6 @@
 # CryptoClustering
 
-In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.   
+The goals of this challenge is to use knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.   
 
 As can be seen in the file Crypto_Clustering.ipynb, the data set is made up of 41 rows (cryptocurrencies) and 7 columns (or features). No rows contain any null values. 
 INSERT Image01 HERE  
