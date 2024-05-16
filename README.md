@@ -26,7 +26,7 @@ a) initialize the K-means model with the best value for k
 b) fit the K-means model using the original scaled DataFrame  
 c) predict the clusters to group the cryptocurrencies  
 
-As we can see in the graph below, 4 clusters are plotted, though its difficult to separate cluster 1 from cluster 0. Cluster 3 appears to be an anomoly. Clusters 0 and 2 appear to be reasonably distinct, with minor overlap.  
+As we can see in the graph below, 4 clusters are plotted, though its difficult to separate cluster 1 from cluster 0. Cluster 3 appears to be an anomaly. Clusters 0 and 2 appear to be reasonably distinct, with minor overlap.  
 
 ![image03](https://github.com/mcjauregui/CryptoClustering/assets/151464511/43f9c7aa-e84c-470b-beb1-e770a7d7fad8)  
 
