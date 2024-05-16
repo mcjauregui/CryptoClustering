@@ -40,8 +40,9 @@ I ran a second Elbow Test, using a simmilar process to that described in Step 1,
 
 Step 4: Cluster Cryptocurrencies with K-means Using the PCA Data  
 By following a similar process to that described in Step 2, I predicted the clusters to use to group the cryptocurrencies using the PCA data. I then plotted the results. 
-The clusters 0 and 2 remained grouped around the x-axis at zero, but appeared more closely clustered withing themselves and with each other. Noticeably, the single crytocurriences in cluster 1 and 3 are now further separated from cluster 0 and 2. 
+The clusters 0 and 2 remained grouped around the x-axis at zero, but appeared more closely clustered withing themselves and with each other. Noticeably, the single crytocurriences in cluster 1 and 3 are now further separated from cluster 0 and 2. Cluster 1 is no longer plotted amongst the crytocurrencies of Cluster 0.
 
+![image05](https://github.com/mcjauregui/CryptoClustering/assets/151464511/b55e6f69-d368-4fa7-afad-57b2a0262b4b)
 
 
 
