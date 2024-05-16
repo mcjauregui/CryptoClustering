@@ -4,6 +4,7 @@ The goals of this challenge is to use knowledge of Python and unsupervised learn
 
 As can be seen in the file Crypto_Clustering.ipynb, the data set is made up of 41 rows (cryptocurrencies) and 7 columns (or features). No rows contain any null values.   
 I plotted the data beforre preparing it for the following steps.
+
 ![image00](https://github.com/mcjauregui/CryptoClustering/assets/151464511/a802103a-6477-406f-ad64-1b9a06c06669)
 
 Step 1: Find the Best Value for k   
@@ -26,6 +27,7 @@ b) fit the K-means model using the original scaled DataFrame
 c) predict the clusters to group the cryptocurrencies  
 
 As we can see in the graph below, 4 clusters are plotted, though its difficult to separate cluster 1 from cluster 0. Cluster 3 appears to be an anomoly. Clusters 0 and 2 appear to be reasonably distinct, with minor overlap.  
+
 ![image03](https://github.com/mcjauregui/CryptoClustering/assets/151464511/43f9c7aa-e84c-470b-beb1-e770a7d7fad8)  
 
 Step 3. Optimize Clusters with Principal Component Analysis  
@@ -33,11 +35,13 @@ For this step I used principal component analysis on the scaled data to reduce t
 Using Python to calculate explained variance, I found that 37% of the variance could be explained by PC1, 35% by PC2, and 18% by PC3. The total explained variance was 89.5%.
 I then created a new DataFrame with the PCA data and set "coin_id" index from the original DataFrame as the index for the new DataFrame.
 I ran a second Elbow Test, using a simmilar process to that described in Step 1, but this time on the PCA data. Again, 4 appeared to be the most appropriate value for k. 
+
 ![image04](https://github.com/mcjauregui/CryptoClustering/assets/151464511/02792923-3c25-4b49-b790-7dc2efae12c5)
 
-Step 4: Cluster Cryptocurrencies with K-means Using the PCA Data
+Step 4: Cluster Cryptocurrencies with K-means Using the PCA Data  
 By following a similar process to that described in Step 2, I predicted the clusters to use to group the cryptocurrencies using the PCA data. I then plotted the results. 
-The clusters 0 and 2 remained grouped around the x-axis at zero, but appeared more closely clustered withing themselves and with each other. Noticeably, the single 
-![image5](https://github.com/mcjauregui/CryptoClustering/assets/151464511/d69d2f1d-4a86-4601-8a8d-3810c0b13129)
+The clusters 0 and 2 remained grouped around the x-axis at zero, but appeared more closely clustered withing themselves and with each other. Noticeably, the single crytocurriences in cluster 1 and 3 are now further separated from cluster 0 and 2. 
+
+
 
 
